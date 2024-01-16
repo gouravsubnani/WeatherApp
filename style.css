@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
-
+ /* i love you yashi */
 body {
     display: flex;
     justify-content: center;
@@ -12,7 +12,9 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #877f7f, #157777, #4e085f, #790909);
 }
-
+#yashi{
+    border: 2px solid red;
+}
 .container {
     width: 100%;
     max-width: 540px; /* Adjust the max-width as needed */
@@ -146,4 +148,22 @@ ul li span{
 
 .delete_icon:hover{
     background : #edeef0;
+}
+
+
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.city-name-wrap , .temperature-wrap{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.details-wrapper{
+    display: flex;
+    justify-content: center;
 }
