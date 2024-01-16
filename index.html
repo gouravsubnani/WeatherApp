@@ -10,26 +10,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-
-        <div class="weather">
-
-            <nav>
-                <div class="location">
-                    <h2 id = "city">Bengaluru</h2>
-                    <h3 id = "country"><i class="fa-sharp fa-solid fa-location-dot"></i>India</h3>
-                </div>
-                <div class="search-area">
-                    <input type="text" id="search" placeholder="Enter city name..." spellcheck="false">
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+    <div class = "container">
+      <div class="to_do_box">
+        <h2>Weather App&nbsp;<i class="fa-solid fa-wind"></i></h2>
+        <div class="row">
+          <input type = "text" class = "input_box" placeholder="Search Your City..">
+          <button class = "btn" onclick = "addTask()">Voila</button>
         </div>
+        <ul class = "task_container">
+          
+        </ul>
+      </div>
     </div>
-</body>
-</html>
+    <script src = "script.js"></script>
+  </body>
+  </html>
